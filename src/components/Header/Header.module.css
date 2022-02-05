@@ -1,0 +1,35 @@
+.container {
+    padding-top: 15px; 
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoWrapper {
+    padding-left: 15px; 
+}
+
+.menuContainer {
+    display: flex;
+    align-items: center;
+    background-color: #1A2262CC;
+    padding: 10px 140px 10px 20px;
+}
+
+.menuItem {
+    margin-right: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+
+.menuItem:last-child {
+    margin-right: 0px;
+}

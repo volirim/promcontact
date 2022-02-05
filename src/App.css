@@ -1,0 +1,34 @@
+html, body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.App{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container {
+  flex-grow: 1;
+}
+
+.phoneLink {
+  text-decoration: none;
+  color: white   
+}
+
+.phoneLink:active {
+  color: white;
+}
+
+.phoneLinkFooter {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000000;   
+}
